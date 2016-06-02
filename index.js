@@ -12,4 +12,10 @@ var num = 0;
 while (num <= 12) {
     console.log(num);
     num = num + 2;
-}
+};
+// practiced a do / while loop in chrome console
+// do {
+//     var yourName = prompt("who are you");
+// } while (!yourName);
+// console.log(yourName);
+// catie
