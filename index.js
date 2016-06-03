@@ -22,9 +22,14 @@
 
 // triangle
 
-i = 0
-while (i < 7) {
-    console.log("*" * i);
-    i++;
+// i = 0
+// while (i < 7) {
+//     console.log("*" * i);
+//     i++;
+// }
+var num = " ";
+for (row = 1; row <= 7; row++) {
+    num = num + "#";
+    console.log(num);
 }
 
