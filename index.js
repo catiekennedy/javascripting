@@ -27,6 +27,7 @@
 //     console.log(num);
 // }
 
+
 // fizzbuzz
 // for (i = 1; i <= 16; i++) {
 //     if (i % 5 == 0 && i % 3 == 0) {
@@ -41,19 +42,31 @@
 // }
 
 // refactored fizzbuzz
-for (var i = 1; i <= 100; i++) {
-    var output = "";
-    if (i % 3 == 0) {
-        output += "Fizz";
+// for (var i = 1; i <= 100; i++) {
+//     var output = "";
+//     if (i % 3 == 0) {
+//         output += "Fizz";
+//     }
+//     if (i % 5 == 0) {
+//         output += "Buzz"
+//     }
+//     console.log(output || i);
+// }
+
+
+// chess board
+var space = "-";
+var hash = "#";
+for (i = 1; i < 8; i++) {
+    for (j = 1; j < i; j++) {
+        if ((i + j) % 2 == 0) {
+            console.log(hash);
+        } else {
+            console.log(space);
+        }
     }
-    if (i % 5 == 0) {
-        output += "Buzz"
-    }
-    console.log(output || i);
+    // console.log('\n');
 }
-
-
-
 
 
 
