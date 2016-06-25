@@ -55,18 +55,23 @@
 
 
 // chess board
-var space = "-";
-var hash = "#";
-for (i = 1; i < 8; i++) {
-    for (j = 1; j < i; j++) {
+var size = 8;
+var board = "";
+for (var i = 0; i < size; i++) {
+    for (var j = 0; j < size; j++) {
         if ((i + j) % 2 == 0) {
-            console.log(hash);
+            board += " ";
         } else {
-            console.log(space);
+            board += "#";
         }
     }
-    // console.log('\n');
+    board += "\n";
 }
+console.log(board);
+// make an empty board, throw the spaces and # into the board
+
+
+
 
 
 
