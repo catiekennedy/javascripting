@@ -3,7 +3,7 @@
  */
 // Eloquent Javascript
 
-// Chapter 2
+// CHAPTER 2
 // var debt = 140;
 // debt = debt -35;
 // console.log(debt);
@@ -55,21 +55,32 @@
 
 
 // chess board
-var size = 8;
-var board = "";
-for (var i = 0; i < size; i++) {
-    for (var j = 0; j < size; j++) {
-        if ((i + j) % 2 == 0) {
-            board += " ";
-        } else {
-            board += "#";
-        }
-    }
-    board += "\n";
-}
-console.log(board);
+// var size = 8;
+// var board = "";
+// for (var i = 0; i < size; i++) {
+//     for (var j = 0; j < size; j++) {
+//         if ((i + j) % 2 == 0) {
+//             board += " ";
+//         } else {
+//             board += "#";
+//         }
+//     }
+//     board += "\n";
+// }
+// console.log(board);
 // make an empty board, throw the spaces and # into the board
 
+// CHAPTER 3
+// minimum
+var min = function(valueOne, valueTwo) {
+	if (valueOne < valueTwo) {
+		return valueOne;
+	} else {
+		return valueTwo;
+	}
+}
+console.log(min(0, 10));
+console.log(min(0, -10));
 
 
 
